@@ -1,0 +1,84 @@
+body{
+    margin: 5px
+}
+
+.small-box{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.small-box:hover{
+    background-color: gray;
+    color: white;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#selected-number{
+    font-size: 220%;
+    font-weight: 800;
+}
+
+
+.bingo{
+    font-size: 200%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#players-list{
+    position: fixed;
+    text-align: center;
+    border: 2px solid orangered;
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#close{
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.single-player-name{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.selected{
+    background-color: red;
+}
+
+.marked{
+    background-color: blueviolet;
+}
+
+.big-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+}
+
+.btn-group{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-group > button{
+    margin: auto;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+}

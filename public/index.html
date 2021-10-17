@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style2.css">
+    </head>
+    <body>
+        <audio preload="auto" src="./number_click_music.wav" id='number_click_sound'>
+            </audio>
+        <center>
+        <h2>Welcome to BINGO</h2>
+    </center>
+    <div id="players-list">
+        <label> Players List <span id='close'>x</span> </label>
+    </div>
+        <div class="game-container">
+            <div class="big-box" id='box'></div>
+            <div>
+                <label>Selected Number</label>
+                <h2 id='selected-number'>-</h2>
+            </div>
+        </div>
+        <div class="bingo">
+        </div>
+        <div class="btn-group">
+            <button id='fill'>Fill</button>
+            <button id='start'>Start</button>
+            <button id='reset'>Reset</button>
+        </div>
+        <script src="./app.js" async defer></script>
+    </body>
+</html>

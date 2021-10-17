@@ -1,0 +1,22 @@
+{
+  "name": "bingo-game",
+  "version": "1.0.0",
+  "description": "Bingo game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start":"nodemon index.js"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "NodeJs",
+    "ExpressJs"
+  ],
+  "author": "Mallikarjun Komarraju",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
