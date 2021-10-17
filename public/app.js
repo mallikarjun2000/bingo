@@ -36,12 +36,12 @@ function init() {
         }
         numberBoxes.push(temp);
     }
-    players.forEach((item)=>{
-        let singlePlayer = document.createElement('p');
-        singlePlayer.innerHTML = item;
-        singlePlayer.className = 'single-player-name';
-        playersListDiv.appendChild(singlePlayer)
-    })
+    // players.forEach((item)=>{
+    //     let singlePlayer = document.createElement('p');
+    //     singlePlayer.innerHTML = item;
+    //     singlePlayer.className = 'single-player-name';
+    //     playersListDiv.appendChild(singlePlayer)
+    // })
 }
 
 // document.getElementById('close').addEventListener('click',(e)=>{
